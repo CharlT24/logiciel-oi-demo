@@ -1,4 +1,4 @@
-import { supabase } from "@/lib/supabaseClient";
+import supabase from "@/lib/supabaseClient";
 import { generateUbiflowXML } from "@/lib/exports/generateUbiflowXML";
 import { pushToFtp } from "@/lib/exports/pushToFtp";
 

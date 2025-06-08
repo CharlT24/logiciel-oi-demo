@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { GoogleMap, LoadScript, Marker, InfoWindow } from "@react-google-maps/api"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 
 const containerStyle = {
   width: "100%",

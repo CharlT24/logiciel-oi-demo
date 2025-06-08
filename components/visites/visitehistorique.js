@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 
 export function VisiteHistorique() {
   const [visites, setVisites] = useState([])

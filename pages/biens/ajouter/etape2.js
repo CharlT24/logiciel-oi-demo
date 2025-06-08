@@ -1,7 +1,7 @@
 // Étape 2 complète avec IA + Pièces + tous champs visibles + amélioration chauffage + % honoraires
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 import Link from "next/link"
 
 export default function Etape2() {

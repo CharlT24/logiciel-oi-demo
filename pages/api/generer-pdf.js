@@ -1,4 +1,4 @@
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 import pdf from "html-pdf"
 
 export default async function handler(req, res) {

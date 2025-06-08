@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { supabase } from "@/lib/supabaseClient";
+import supabase from "@/lib/supabaseClient";
 import Layout from '../../components/Layout'; // Assurez-vous que Layout est importé correctement
 
 export default function BienDetails() {

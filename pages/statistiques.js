@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 import { Pie } from "react-chartjs-2"
 import {
   Chart as ChartJS,

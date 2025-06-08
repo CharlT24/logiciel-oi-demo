@@ -1,5 +1,5 @@
 // pages/api/pdf/vitrine.js
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 import puppeteer from "puppeteer"
 
 export default async function handler(req, res) {

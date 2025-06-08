@@ -1,4 +1,4 @@
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 
 export const getSettings = async () => {
   const { data } = await supabase.from("parametres").select("*")

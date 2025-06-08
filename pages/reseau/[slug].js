@@ -1,7 +1,7 @@
 // pages/reseau/[slug].js
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 import Link from "next/link"
 import Image from "next/image"
 

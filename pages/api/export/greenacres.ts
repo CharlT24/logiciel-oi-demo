@@ -1,5 +1,5 @@
 import { generateGreenAcresXML } from "@/lib/exports/generateGreenAcresXML"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 import * as ftp from "basic-ftp"
 import { Readable } from "stream"
 

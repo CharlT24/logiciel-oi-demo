@@ -1,5 +1,5 @@
 // lib/exports/pushToGreenAcres.ts
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 import { generateGreenAcresXML } from "@/lib/exports/generateGreenAcresXML"
 import * as ftp from "basic-ftp"
 import { Readable } from "stream"

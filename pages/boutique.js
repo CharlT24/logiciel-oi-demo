@@ -1,6 +1,6 @@
 // pages/boutique/index.tsx
 import { useEffect, useState } from "react";
-import { supabase } from "@/lib/supabaseClient";
+import supabase from "@/lib/supabaseClient";
 
 export default function Boutique() {
   const [produits, setProduits] = useState([]);

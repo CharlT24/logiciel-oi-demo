@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useRouter } from "next/router"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 import { useSession } from "@supabase/auth-helpers-react"
 import Link from "next/link"
 

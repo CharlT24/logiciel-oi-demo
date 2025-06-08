@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useRouter } from "next/router"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 import AvatarUploader from "@/components/AvatarUploader"
 
 export default function FicheEditAgent() {

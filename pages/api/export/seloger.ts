@@ -1,4 +1,4 @@
-import { supabase } from "@/lib/supabaseClient";
+import supabase from "@/lib/supabaseClient";
 import { generateSeLogerCSV } from "@/lib/exports/generateSeLogerCSV";
 import { pushToSftp } from "../../../lib/exports/pushToSftp";
 

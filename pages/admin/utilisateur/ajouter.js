@@ -1,6 +1,6 @@
 // pages/admin/utilisateurs/ajouter.js
 import { useState } from "react"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 import { useRouter } from "next/router"
 
 export default function AjouterUtilisateur() {

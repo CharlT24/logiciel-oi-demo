@@ -1,6 +1,6 @@
 // pages/export/reporting.js
 import { useEffect, useState } from "react"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 
 const PORTAILS = [
   { nom: "Bien'ici", slug: "bienici", logo: "/logos/bienici.png" },

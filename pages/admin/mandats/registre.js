@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { supabase } from "@/lib/supabaseClient";
+import supabase from "@/lib/supabaseClient";
 import { Document, Packer, Paragraph, Table, TableRow, TableCell, WidthType } from "docx";
 import { saveAs } from "file-saver";
 

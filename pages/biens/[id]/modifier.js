@@ -1,7 +1,7 @@
 // 🔧 Fichier modifié : ModifierBien avec intégration complète des étapes 1 à 4 + DPE, GES, prix, mandat + galerie et cover
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { supabase } from "@/lib/supabaseClient";
+import supabase from "@/lib/supabaseClient";
 import { v4 as uuidv4 } from "uuid";
 import { ReactSortable } from "react-sortablejs";
 

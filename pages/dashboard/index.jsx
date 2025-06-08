@@ -1,6 +1,6 @@
 // 🔧 Fichier modifié : Dashboard avec raccourcis sur les capsules
 import { useEffect, useState } from "react"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 import Link from "next/link"
 import dynamic from "next/dynamic"
 import CapsuleDerniereVisite from "@/components/dashboard/CapsuleDerniereVisite"

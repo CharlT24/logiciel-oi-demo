@@ -1,7 +1,7 @@
 // pages/clients/acquereurs/modifier.js
 import { useEffect, useState } from "react"
 import { useRouter } from "next/router"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 
 export default function ModifierClient() {
   const router = useRouter()

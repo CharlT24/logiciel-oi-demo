@@ -1,7 +1,7 @@
 // pages/biens/[id]/index.js
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { supabase } from "@/lib/supabaseClient";
+import supabase from "@/lib/supabaseClient";
 import DPEBar from "@/components/DPEBar";
 import GESBar from "@/components/GESBar";
 

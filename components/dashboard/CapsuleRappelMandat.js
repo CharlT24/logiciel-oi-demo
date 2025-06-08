@@ -1,6 +1,6 @@
 // 🔧 Fichier modifié : CapsuleRappelMandat lié à registres_mandats avec rappel 3 mois avant + lien vers listing agent/admin
 import { useEffect, useState } from "react"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 import Link from "next/link"
 
 export default function CapsuleRappelMandat() {

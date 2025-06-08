@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 
 export function VisiteCapsule({ bienId }) {
   const [visites, setVisites] = useState([])

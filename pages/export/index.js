@@ -1,6 +1,6 @@
 // pages/export/index.js
 import { useEffect, useState } from "react"
-import { supabase } from "@/lib/supabaseClient"
+import supabase from "@/lib/supabaseClient"
 import { getSettings } from "@/utils/getSettings"
 
 export default function ExportPage() {
