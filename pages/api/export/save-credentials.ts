@@ -24,7 +24,7 @@ export default async function handler(req, res) {
         destination,
         auto_export: autoExport
       }],
-      { onConflict: ['portail'] }
+      { onConflict: 'portail'}
     )
 
   if (error) {
